@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="5.0" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+    <display-name>Currency Rates</display-name>
+    <servlet>
+        <servlet-name>rates</servlet-name>
+        <servlet-class>ru.dengimon.dengimon.RatesServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>show-rates</servlet-name>
+        <jsp-file>/ShowRates.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>main-menu</servlet-name>
+        <jsp-file>/WEB-INF/jspf/MainMenu.jspf</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>rates</servlet-name>
+        <url-pattern>/rates</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>show-rates</servlet-name>
+        <url-pattern>/show-rates</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>main-menu</servlet-name>
+        <url-pattern>/main-menu</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

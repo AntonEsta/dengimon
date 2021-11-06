@@ -1,0 +1,15 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Nov 5, 2021, 11:24:02 PM
+    Author     : esta
+*/
+
+currencies-rate-item-row {
+    border: thin solid;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+

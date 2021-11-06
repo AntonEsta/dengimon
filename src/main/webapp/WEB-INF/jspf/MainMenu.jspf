@@ -1,0 +1,43 @@
+
+<%@ page pageEncoding="UTF-8" %>
+<header id="site-header" class="header-one fixed-scroll shrink-sticky-header dyn-styles wpex-clr" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <div id="site-header-inner" class="container wpex-clr">
+        <div id="site-logo" class="site-branding header-one-logo wpex-clr">
+            <div id="site-logo-inner" class="wpex-clr">
+                <a id="site-logo-link" href="https://colorlib.com/wp/" rel="home" class="main-logo">
+                    <picture class="logo-img">
+                        <source type="image/webp" data-lazy-srcset="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-logo-top.png.webp" srcset="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-logo-top.png.webp">
+                        <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-logo-top.png" alt="Colorlib" width="895" height="217" data-lazy-src="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-logo-top.png" data-ll-status="loaded" class="entered lazyloaded">
+                    </picture>
+                    <noscript>
+                        <picture class="logo-img">
+                            <source type="image/webp" srcset="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-logo-top.png.webp"/>
+                            <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-logo-top.png" alt="Colorlib" width="895" height="217"/>
+                        </picture>
+                    </noscript>
+                </a>
+            </div>
+        </div>
+        <div id="site-navigation-wrap" class="navbar-style-one wpex-dropdowns-caret hide-at-mm-breakpoint wpex-clr">
+            <nav id="site-navigation" class="navigation main-navigation main-navigation-one wpex-clr" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" aria-label="Main menu">
+            <ul id="menu-mainmenu-2021" class="dropdown-menu main-navigation-ul sf-menu sf-js-enabled">
+                <li id="menu-item-277535" class="menu-item"><a href="https://colorlib.com/wp/" class="sf-with-ul"><span class="link-inner">Home</span></a>
+                    <ul class="sub-menu" style="display: none;">
+                        <li id="menu-item-277536" class="menu-item"><a href="https://colorlib.com/wp/jobs/"><span class="link-inner">We Are Hiring!</span></a></li>
+                        <li id="menu-item-277537" class="menu-item"><a href="https://colorlib.com/wp/about/"><span class="link-inner">About Colorlib</span></a></li>
+                        <li id="menu-item-277538" class="menu-item"><a href="https://colorlib.com/wp/advertise/"><span class="link-inner">Advertise on Colorlib</span></a></li>
+                    </ul>
+                </li>
+                <li id="menu-item-277543" class="menu-item">
+                    <a target="_blank" rel="noopener" href="https://colorlibsupport.com/">
+                        <span class="link-inner">Support</span>
+                    </a>
+                </li>
+            </nav>
+        </div>
+        <div id="mobile-menu" class="wpex-mobile-menu-toggle show-at-mm-breakpoint wpex-absolute wpex-top-50 wpex-right-0">
+            <div class="wpex-inline-flex wpex-items-center">
+            <a href="#" class="mobile-menu-toggle" role="button" aria-label="Toggle mobile menu" aria-expanded="false"><span class="wpex-bars" aria-hidden="true"><span></span></span></a> </div>
+        </div>
+    </div>
+</header>
